@@ -10,11 +10,39 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    override func viewDidLoad() {
+    @IBOutlet weak var parameterFunctionLabel: UILabel!
+    @IBOutlet weak var voidFunctionLabel: UILabel!
+    @IBOutlet weak var returnFunctionLabel: UILabel!
+    @IBOutlet weak var functionWithBothLabel: UILabel!
+    
+    
+    @IBOutlet weak var parameterFunctionTextfield: UITextField!
+    @IBOutlet weak var textField1: UITextField!
+    @IBOutlet weak var textField2: UITextField!
+    
+    override func viewDidLoad()
+    {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
     }
 
-
+    @IBAction func voidFunctionPressed(_ sender: Any)
+    {
+        
+    }
+    @IBAction func parameterFunctionPressed(_ sender: Any)
+    {
+        
+    }
+    @IBAction func returnStatementPressed(_ sender: Any)
+    {
+        
+    }
+    
+    @IBAction func returnAndParametersFunction(_ sender: Any)
+    {
+        
+    }
+    
 }
 
